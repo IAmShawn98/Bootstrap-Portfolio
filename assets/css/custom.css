@@ -1,0 +1,45 @@
+/* Background Styles */
+
+.bg-minty {
+    background-color: #4aaaa5;
+}
+
+/* Background Image */
+
+body {
+    background-image: url("../images/bg.png");
+}
+
+a {
+    font-size: 140%;
+    color: #acacac;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: #4aaaa5;
+}
+
+/* Mobile View  */
+
+@media screen and (max-width: 640px) {
+    .navbar-brand {
+        color: red !important;
+    }
+}
+
+/* Tablet View  */
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        color: orange !important;
+    }
+}
+
+/* Desltop View  */
+
+@media screen and (max-width: 980px) {
+    .navbar-brand {
+        color: white !important;
+    }
+}
