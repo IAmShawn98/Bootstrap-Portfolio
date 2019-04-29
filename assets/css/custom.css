@@ -20,6 +20,11 @@ a:hover {
     color: #4aaaa5;
 }
 
+/* Contact Profile (Pic of me) */
+#thumbProfile {
+    width: 200px;
+}
+
 /* Mobile View  */
 
 @media screen and (max-width: 640px) {
