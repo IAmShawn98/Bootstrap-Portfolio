@@ -8,6 +8,7 @@
 
 body {
     background-image: url("../images/bg.png");
+    margin-top: -1px;
 }
 
 a {
@@ -30,11 +31,23 @@ a:hover {
     width: 200px;
 }
 
+/* Nav + card shadows for realistic reflection effect! */
+
+.navbar, .card {
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
 .footer {
     border-top: 8px solid #4aaaa5;
+    box-shadow: 5px 5px 5px 5px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.active {
+    background-color: #aaa;
+    padding: 10px;
 }
 
 /* Mobile View  */
