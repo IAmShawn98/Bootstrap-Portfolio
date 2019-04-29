@@ -11,8 +11,12 @@ body {
 }
 
 a {
-    font-size: 140%;
+    font-size: 100%;
     color: #acacac;
+}
+
+.nav-link {
+    font-size: 180%;
 }
 
 a:hover {
