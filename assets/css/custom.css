@@ -84,6 +84,10 @@ a:hover {
     p.lead {
         font-size: 88%;
     }
+    .card {
+        margin-bottom: 10px;
+        height: 780px !important;
+    }
     .footer {
         position: relative !important;
         padding: 6px !important;
