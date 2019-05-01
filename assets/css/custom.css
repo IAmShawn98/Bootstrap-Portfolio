@@ -85,6 +85,7 @@ a:hover {
         font-size: 88%;
     }
     .footer {
+        position: relative !important;
         padding: 6px !important;
     }
 }
