@@ -79,10 +79,10 @@ a:hover {
     }
     #thumbProfile {
         width: 100%;
-        height: 15%;
+        height: 26%;
     }
-    .card.p-4 {
-        height: 1300px;
+    p.lead {
+        font-size: 88%;
     }
     .footer {
         padding: 6px !important;
