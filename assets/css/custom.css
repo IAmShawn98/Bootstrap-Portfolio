@@ -53,7 +53,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Phone View  */
+/* Phone View */
 
 @media screen and (max-width: 640px) {
     .navbar-brand {
@@ -62,6 +62,12 @@ a:hover {
         margin: 0 !important;
         text-align: center !important;
         font-size: 150% !important;
+    }
+    .jumbotron {
+        display: block !important;
+    }
+    .navbar {
+        display: none !important;
     }
     .navbar-nav {
         margin-left: 30% !important;
@@ -76,6 +82,96 @@ a:hover {
     }
     .mt-5 {
         margin-top: 15px !important;
+    }
+    #thumbProfile {
+        width: 100% !important;
+        height: 35% !important;
+    }
+    p.lead {
+        font-size: 128% !important;
+    }
+    .footer {
+        position: relative !important;
+    }
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 100% !important;
+        height: 78px !important;
+        margin: 0 !important;
+        text-align: center !important;
+        font-size: 150% !important;
+    }
+    .jumbotron {
+        display: block !important;
+    }
+    .navbar {
+        display: none !important;
+    }
+    .navbar-nav {
+        margin-left: 30% !important;
+        flex-direction: row !important;
+    }
+    ul li {
+        margin-right: 15px !important;
+        font-size: 80% !important;
+    }
+    h1.display-5.text-info {
+        font-size: 140% !important;
+    }
+    .mt-5 {
+        margin-top: 15px !important;
+    }
+    #thumbProfile {
+        width: 100% !important;
+        height: 35% !important;
+    }
+    p.lead {
+        font-size: 128% !important;
+    }
+    .footer {
+        position: relative !important;
+    }
+}
+
+/* Initial Mobile Response */
+
+@media screen and (max-width: 980px) {
+    .navbar-brand {
+        width: 100% !important;
+        height: 78px !important;
+        margin: 0 !important;
+        text-align: center !important;
+        font-size: 150% !important;
+    }
+    .jumbotron {
+        display: block !important;
+    }
+    .navbar {
+        display: none !important;
+    }
+    .navbar-nav {
+        margin-left: 37% !important;
+        flex-direction: row !important;
+    }
+    ul li {
+        margin-right: 15px !important;
+        font-size: 80% !important;
+    }
+    h1.display-5.text-info {
+        font-size: 140% !important;
+    }
+    .mt-5 {
+        margin-top: 15px !important;
+    }
+    .container .mt-5 {
+        margin-left: 138px;
+    }
+    .jumbotron.jumbotron-fluid.bg-white {
+        padding: 0;
     }
     #thumbProfile {
         width: 100% !important;
