@@ -81,7 +81,6 @@ a:hover {
     width: 10% !important;
 }
 
-
 /* Phone View */
 
 @media screen and (max-width: 640px) {
@@ -114,6 +113,22 @@ a:hover {
     }
     button.btn.btn-minty {
         width: 35%;
+    }
+    .btn-minty {
+        background-color: #4aaaa5 !important;
+        border-radius: 0 !important;
+        list-style-type: none !important;
+        color: #ffff !important;
+        padding: 5px !important;
+        width: 10% !important;
+    }
+    .btn-minty:hover {
+        background-color: #8aaaa9 !important;
+        border-radius: 0 !important;
+        list-style-type: none !important;
+        color: #ffff !important;
+        padding: 5px !important;
+        width: 10% !important;
     }
     #thumbProfile {
         width: 100% !important;
@@ -156,6 +171,22 @@ a:hover {
     }
     .mt-5 {
         margin-top: 15px !important;
+    }
+    .btn-minty {
+        background-color: #4aaaa5 !important;
+        border-radius: 0 !important;
+        list-style-type: none !important;
+        color: #ffff !important;
+        padding: 5px !important;
+        width: 10% !important;
+    }
+    .btn-minty:hover {
+        background-color: #8aaaa9 !important;
+        border-radius: 0 !important;
+        list-style-type: none !important;
+        color: #ffff !important;
+        padding: 5px !important;
+        width: 10% !important;
     }
     #thumbProfile {
         width: 100% !important;
@@ -207,6 +238,22 @@ a:hover {
     }
     button.btn.btn-minty {
         width: 35% !important;
+    }
+    .btn-minty {
+        background-color: #4aaaa5 !important;
+        border-radius: 0 !important;
+        list-style-type: none !important;
+        color: #ffff !important;
+        padding: 5px !important;
+        width: 10% !important;
+    }
+    .btn-minty:hover {
+        background-color: #8aaaa9 !important;
+        border-radius: 0 !important;
+        list-style-type: none !important;
+        color: #ffff !important;
+        padding: 5px !important;
+        width: 10% !important;
     }
     #thumbProfile {
         width: 100% !important;
