@@ -54,12 +54,15 @@ a:hover {
 }
 
 /* Custom Text Colors | Custom Background Colors */
+
 .bg-minty {
     background-color: #4aaaa5;
 }
+
 .text-minty {
     color: #4aaaa5;
 }
+
 .btn-minty {
     background-color: #4aaaa5;
     border-radius: 0;
@@ -98,6 +101,9 @@ a:hover {
     }
     .mt-5 {
         margin-top: 15px !important;
+    }
+    button.btn.btn-minty {
+        width: 35%;
     }
     #thumbProfile {
         width: 100% !important;
@@ -189,6 +195,9 @@ a:hover {
     .jumbotron.jumbotron-fluid.bg-white {
         padding: 0;
     }
+    button.btn.btn-minty {
+        width: 35%;
+    }
     #thumbProfile {
         width: 100% !important;
         height: 35% !important;
@@ -201,9 +210,8 @@ a:hover {
     }
 }
 
-
-
 /* Really Small Devices */
+
 @media screen and (max-width: 400px) {
     .navbar-brand {
         width: 100% !important;
@@ -237,6 +245,9 @@ a:hover {
     }
     .jumbotron.jumbotron-fluid.bg-white {
         padding: 0;
+    }
+    button.btn.btn-minty {
+        width: 35%;
     }
     #thumbProfile {
         width: 100% !important;
