@@ -72,6 +72,16 @@ a:hover {
     width: 10% !important;
 }
 
+.btn-minty:hover {
+    background-color: #8aaaa9 !important;
+    border-radius: 0 !important;
+    list-style-type: none !important;
+    color: #ffff !important;
+    padding: 5px !important;
+    width: 10% !important;
+}
+
+
 /* Phone View */
 
 @media screen and (max-width: 640px) {
