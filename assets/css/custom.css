@@ -56,11 +56,11 @@ a:hover {
 /* Custom Text Colors | Custom Background Colors */
 
 .bg-minty {
-    background-color: #4aaaa5;
+    background-color: #4aaaa5 !important;
 }
 
 .text-minty {
-    color: #4aaaa5;
+    color: #4aaaa5 !important;
 }
 
 .btn-minty {
@@ -190,13 +190,13 @@ a:hover {
         margin-top: 15px !important;
     }
     .container .mt-5 {
-        margin-left: 138px;
+        margin-left: 138px !important;
     }
     .jumbotron.jumbotron-fluid.bg-white {
-        padding: 0;
+        padding: 0 !important;
     }
     button.btn.btn-minty {
-        width: 35%;
+        width: 35% !important;
     }
     #thumbProfile {
         width: 100% !important;
